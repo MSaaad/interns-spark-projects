@@ -1,0 +1,85 @@
+
+.student{
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+    /* margin: auto; */
+}
+.left{
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.right{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+.score{
+    font-size: 30px;
+    font-weight: bold;
+    color: teal;
+    margin: 0 auto;
+}
+button.addScoreBtn{
+border: none;
+background-color: orange;
+color: white;
+width: 30px;
+height: 30px;
+line-height: 16px;
+text-align: center;
+position: relative;
+top: -3px;
+left: 7px;
+cursor: pointer;
+}
+button.minusScoreBtn:hover{
+    background-color: teal;
+}
+button.minusScoreBtn{
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 16px;
+    text-align: center;
+    position: relative;
+    top: -3px;
+    left: 7px;
+    cursor: pointer;
+    margin: 10px;
+    }
+    button.addScoreBtn:hover{
+        background-color: teal;
+    }
+p.uniName span{
+    background-color: green;
+    color: white;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+p.uniName span.fail{
+    background-color: red;
+    color: white;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+.uniName{
+    font-weight: 500;
+    font-size: 20px;
+    margin:  0 auto;
+}
